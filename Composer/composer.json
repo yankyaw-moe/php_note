@@ -1,0 +1,14 @@
+{
+  "name": "ino-matrix/my-app",
+  "description": "testing composer project",
+  "autoload": {
+    "psr-4": {
+      "InoMatrix\\MyApp\\": "src/",
+      "App\\": "App/"
+    }
+  },
+  "require": {
+    "nesbot/carbon": "^2.50",
+    "laravel/laravel": "^8.5"
+  }
+}

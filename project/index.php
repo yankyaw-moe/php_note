@@ -26,6 +26,18 @@
             </div>
         <?php endif ?>
 
+        <?php if (isset($_GET['registered'])) : ?>
+            <div class="alert alert-success">
+                Account created. Please login.
+            </div>
+        <?php endif ?>
+
+        <?php if (isset($_GET['suspended'])) : ?>
+            <div class="alert alert-danger">
+                Your account is suspended.
+            </div>
+        <?php endif ?>
+
         <form action="_actions/login.php" method="post">
             <input type="email" class="form-control mb-2" name="email" placeholder="Email" required>
             <input type="password" class="form-control mb-2" name="password" placeholder="Password" required>

@@ -1,0 +1,19 @@
+{
+  "name": "yankyaw/project",
+  "description": "admin dashboard",
+  "authors": [
+    {
+      "name": "yankyawmoe",
+      "email": "yankyawmoe599@gmail.com"
+    }
+  ],
+  "require": {
+    "fakerphp/faker": "^1.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "Libs\\": "_classes/Libs/",
+      "Helpers\\": "_classes/Helpers/"
+    }
+  }
+}
